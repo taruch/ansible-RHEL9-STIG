@@ -1,3 +1,4 @@
 - hosts: "{{ _hosts }}"
+  become: true
   roles:
-     - { role: RedHatOfficial.rhel9_stig }
+     - rhel9STIG
